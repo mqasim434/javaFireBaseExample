@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayoujst
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    >
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Add Data"
+        android:textSize="30dp"
+        android:backgroundTint="@color/purple_700"
+        android:background="@color/white"
+        android:id="@+id/btnAdd"
+        ></Button>
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="View Data"
+        android:textSize="30dp"
+        android:backgroundTint="@color/purple_700"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnView"
+        ></Button>
+
+
+</LinearLayoujst>

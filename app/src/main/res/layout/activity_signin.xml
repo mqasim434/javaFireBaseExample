@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        ></TextView>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email"
+        android:layout_marginTop="50dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailLoginController"
+        ></EditText>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/passwordLoginController"
+        ></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/purple_700"
+        android:id="@+id/btnSignIn"
+        ></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?? Create account"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnDontHave"
+        ></TextView>
+
+</LinearLayout>

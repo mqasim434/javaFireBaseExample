@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addData"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:id="@+id/name"
+        ></EditText>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Enter Roll No."
+        android:inputType="text"
+        android:id="@+id/roll"
+        ></EditText>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Enter Section"
+        android:inputType="text"
+        android:id="@+id/section"
+        ></EditText>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Enter Project Topic"
+        android:inputType="text"
+        android:id="@+id/topic"
+        ></EditText>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/add"
+        ></Button>
+</LinearLayout>
